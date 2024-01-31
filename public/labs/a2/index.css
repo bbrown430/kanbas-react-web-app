@@ -54,4 +54,26 @@ p#id-selector-2 {
     border-color: #ff7070; }
 .wd-border-blue {
     border-color: #7070ff; }
-  
+
+
+
+
+
+
+.wd-float-left {
+    float: left;
+}
+    
+.wd-float-right {
+    float: right;
+    height: 100px;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.asd { background-color: red; color: white }
+#asd { background-color: red }
+.zxc { background-color: blue; color: white }
+#zxc { background-color: blue }
