@@ -3,6 +3,7 @@
     list-style: none;
     padding: 0px;  margin: 0px;
     width: 80px;
+    height: 100%;
 }
 .wd-kanbas-navigation li {
     padding: 10px;     margin-bottom: 10px;
@@ -12,14 +13,19 @@
     background-color: white;
 }
 .wd-kanbas-navigation li.wd-active a {
-    color: red;
+    color: #d41b2c;
 }
 .wd-kanbas-navigation a {
     color: white;
     text-decoration: none;
 }
 .wd-kanbas-navigation a i {
-    color: red;
+    color: #d41b2c;
     font-size: 2em;
     margin-bottom: 5px;
+    display: block;
+}
+
+.wd-kanbas-navigation a i.profile-icon {
+    color: white;
 }
