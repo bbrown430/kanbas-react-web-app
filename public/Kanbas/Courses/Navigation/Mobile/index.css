@@ -1,0 +1,16 @@
+.mobile-course-nav {
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    
+    text-decoration: none;
+}
+
+.mobile-course-nav a {
+    color: #d41b2c;
+    text-decoration: none;
+}
+
+.mobile-course-nav i {
+    padding-right: 8px;
+    display: inline;
+}

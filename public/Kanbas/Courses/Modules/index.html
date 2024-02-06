@@ -1,25 +1,102 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+        <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
+        <link rel="stylesheet" href="/Kanbas/styles.css" />
+    </head>
     <body>
-        <ul>
-            <button>Collapse All</button>
-            <button>View Progress</button>
-            <select name="" id="">
-                <option value="">Publish All</option>
-            </select>
-            <button>+ Module</button>
-            <li>
-                Week 1
-                <ul>
-                    <li>Learning Objectives</li>
-                    <li>Introduction to the course</li>
-                    <li>Learn what is Web Development</li>
+        <div class="text-end">
+            <button class="btn btn-secondary">Collapse All</button>
+            <button class="btn btn-secondary ms-1">View Progress</button>
+            <select class="publish-select form-select">
+                <option selected>Publish All</option>
+                <option value="moditems">Publish All Modules and Items</option>
+                <option value="modonly">Publish All Modules</option>
+                <option value="unpub">Unpublish All Modules</option>
+                </select>
+            <button class="btn btn-danger ms-1">+ Module</button>
+            <button class="btn btn-secondary ms-1"><i class="fa fa-ellipsis-v m-1"></i></button>
+        </div>
+        <ul class="list-group wd-modules">
+            <li class="list-group-item">
+                <div>
+                    <i class="fa fa-ellipsis-v"></i> Week 0
+                    <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-plus ms-2"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                    </span>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Learning Objectives
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Course Introduction
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> What is Web Dev
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Creating a Web App
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
                 </ul>
             </li>
-            <li> 
-                Week 2
-                <ul>
-                    <li>Learning Objectives</li>
+            <li class="list-group-item">
+                <div>
+                    <i class="fa fa-ellipsis-v"></i> Week 1
+                    <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-plus ms-2"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                    </span>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Learning Objectives
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Creating UIs with HTML
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> Deploying to NetlifyS
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-ellipsis-v"></i> All about Headings
+                        <span class="float-end">
+                        <i class="fa fa-check-circle text-success"></i>
+                        <i class="fa fa-ellipsis-v ms-2"></i>
+                        </span>
+                    </li>
                 </ul>
             </li>
         </ul>
