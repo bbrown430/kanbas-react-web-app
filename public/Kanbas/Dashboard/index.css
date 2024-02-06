@@ -1,0 +1,17 @@
+.card-col {
+    width: 300px
+}
+
+.card-img-limited {
+    max-height: 150px
+}
+
+.edit-icon {
+    color: grey
+}
+
+.card-title-text {
+    text-decoration: none;
+    color: navy;
+    font-weight: bold
+}

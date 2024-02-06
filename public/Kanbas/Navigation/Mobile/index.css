@@ -1,5 +1,16 @@
+.mobile-nav {
+    background-color: white;
+    padding: 24px;
+}
+
+.mobile-nav a {
+    color: black;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
 .wd-kanbas-navigation {
-    background-color: black;
+    background-color: white;
     list-style: none;
     padding: 0px;  margin: 0px;
     width: 80px;
@@ -9,27 +20,20 @@
     padding: 10px;     margin-bottom: 10px;
     font-size: 0.8em;  text-align: center;
 }
-.wd-kanbas-navigation li.wd-active {
-    background-color: white;
-}
-.wd-kanbas-navigation li.wd-active a {
-    color: #d41b2c;
-}
 
-.wd-kanbas-navigation li.wd-active a i.profile-icon{
-    color: #grey;
-}
 .wd-kanbas-navigation a {
-    color: white;
+    color: d41b2c;
+    font-size: 1.2em;
     text-decoration: none;
 }
 .wd-kanbas-navigation a i {
     color: #d41b2c;
     font-size: 2em;
     margin-bottom: 5px;
-    display: block;
+    padding-right: 20px;
+    display: inline;
 }
 
 .wd-kanbas-navigation a i.profile-icon {
-    color: white;
+    color: grey;
 }

@@ -1,78 +1,67 @@
 <html>
     <head>
         <title>Profile</title>
+        <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+        <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/Kanbas/styles.css" />
+        <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
     </head>
     <body>
-        <table width="100%">
-            <tbody>
-                <tr>
-                    <!---------------------------KANBAS NAV---------------------------->
-                    <td valign="top">
-                        <ul>
-                            <li>
-                                <a href="/Kanbas/Account/Profile/screen.html">Account</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Calendar/index.html">Calendar</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Inbox/index.html">Inbox</a>
-                            </li>
-                            <li>
-                                <a href="/History/History/index.html">History</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Studio/index.html">Studio</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Commons/index.html">Commons</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Help/index.html">Help</a>
-                            </li>
-                        </ul>
-                    </td>
-                    <!---------------------------ACCOUNT NAV---------------------------->
-                    <td valign="top">
-                        <ul>
-                            <li>
-                                <a href="#">Notifications</a>
-                            </li>
-                            <li>
-                                <a href="/Kanbas/Account/Profile/screen.html">Profile</a>
-                            </li>
-                            <li>
-                                <a href="#">Files</a>
-                            </li>
-                            <li>
-                                <a href="#">Settings</a>
-                            </li>
-                            <li>
-                                <a href="#">ePortfolios</a>
-                            </li>
-                            <li>
-                                <a href="#">Shared Content</a>
-                            </li>
-                            <li>
-                                <a href="#">The Hub</a>
-                            </li>
-                            <li>
-                                <a href="#">Qwickly Course Tools</a>
-                            </li>
-                            <li>
-                                <a href="#">Global Announcements</a>
-                            </li>
-                        </ul> 
-                    </td>
-                    <!---------------------------PROFILE INDEX---------------------------->
-                    <td valign="top">
-                        <h3>Brian Brown's Profile</h3>
+        <div class="d-flex vh-100">
+            <div class="d-none d-md-block">
+              <ul class="wd-kanbas-navigation">
+                  <li><a href="http://northeastern.edu">
+                    <img src="/images/Northeastern_Logo.svg" alt="Northeastern Logo">
+                  </a></li>
+                  <li  class="wd-active"><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user profile-icon"></i>Account</a></li>
+                  <li>
+                    <a href="/Kanbas/Dashboard/screen.html">
+                      <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                  </li>
+                  <li>
+                    <a href="/Kanbas/Courses/Home/screen.html">
+                      <i class="fas fa-book"></i>Courses</a>
+                  <li><a href="#"><i class="fa fa-calendar"></i>Calendar</a></li>
+                  <li><a href="#"><i class="fa fa-inbox"></i>Inbox</a></li>
+                  <li><a href="#"><i class="fas fa-history"></i>History</a></li>
+                  <li><a href="#"><i class="fas fa-video"></i></i>Studio</a></li>
+                  <li><a href="#"><i class="fas fa-recycle"></i>Commons</a></li>
+                  <li><a href="#"><i class="fas fa-question-circle"></i>Help</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <ul>
+                    <li>
+                        <a href="#">Notifications</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Account/Profile/screen.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Files</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a href="#">ePortfolios</a>
+                    </li>
+                    <li>
+                        <a href="#">Shared Content</a>
+                    </li>
+                    <li>
+                        <a href="#">The Hub</a>
+                    </li>
+                    <li>
+                        <a href="#">Qwickly Course Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">Global Announcements</a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="flex-fill m-4">
+                <h3>Brian Brown's Profile</h3>
                         <hr>
                         <h1>Brian Brown</h1>
                         <a href="\Kanbas\Account\Profile\Edit\screen.html"><button>Edit Profile</button></a>
@@ -88,9 +77,6 @@
                             Links
                         </h2>
                             <a href="https://www.brianbrown.io/">My Portfolio</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+          </div>
     </body>
 </html>
