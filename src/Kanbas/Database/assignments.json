@@ -1,0 +1,24 @@
+[
+    { "_id": "A101", "title": "Cheese Tasting Techniques", "course": "CHEESE101" },
+    { "_id": "A102", "title": "Cheese Pairing Project", "course": "CHEESE101" },
+    { "_id": "A103", "title": "Cheese History Essay", "course": "CHEESE101" },
+    { "_id": "A201", "title": "Surfboard Selection Assignment", "course": "SURF101" },
+    { "_id": "A202", "title": "Surfing Safety Quiz", "course": "SURF101" },
+    { "_id": "A203", "title": "Surfing Techniques Video Presentation", "course": "SURF101" },
+    { "_id": "A301", "title": "Wine Regions Research Paper", "course": "WINE101" },
+    { "_id": "A302", "title": "Wine Tasting Event Planning", "course": "WINE101" },
+    { "_id": "A303", "title": "Wine Production Process Analysis", "course": "WINE101" },
+    { "_id": "A401", "title": "Fortnite Strategy Guide", "course": "FORT101" },
+    { "_id": "A402", "title": "Fortnite Tournament Analysis", "course": "FORT101" },
+    { "_id": "A403", "title": "Fortnite Map Exploration Project", "course": "FORT101" },
+    { "_id": "A501", "title": "Advanced Building Techniques in Fortnite", "course": "FORT301" },
+    { "_id": "A502", "title": "Fortnite Competitive Strategies Report", "course": "FORT301" },
+    { "_id": "A503", "title": "Fortnite Esports Event Management Proposal", "course": "FORT301" },
+    { "_id": "A601", "title": "Website Development Basics Assignment", "course": "CS405" },
+    { "_id": "A602", "title": "Interactive Web Design Project", "course": "CS405" },
+    { "_id": "A603", "title": "Web Development Frameworks Quiz", "course": "CS405" },
+    { "_id": "A701", "title": "Primate Driving Simulator Design Task", "course": "BIO512" },
+    { "_id": "A702", "title": "Ethical Considerations in Primate Driving Research", "course": "BIO512" },
+    { "_id": "A703", "title": "Primate Driving Behavior Analysis", "course": "BIO512" }
+  ]
+  

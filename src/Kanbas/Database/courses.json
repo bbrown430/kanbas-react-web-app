@@ -1,0 +1,58 @@
+[
+    {
+        "_id": "CHEESE101",
+        "name": "Intro to Cheese",
+        "number": "SP-24 SEC-001",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "cheese.jpg"
+    },
+    {
+        "_id": "SURF101",
+        "name": "Intro to Surfing",
+        "number": "SP-24 SEC-002",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "SurfingPikachu.webp"
+    },
+    {
+        "_id": "WINE101",
+        "name": "Intro to Wine Tasting",
+        "number": "SP-24 SEC-003",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "wine.jpg"
+    },
+    {
+        "_id": "FORT101",
+        "name": "Intro to Fortnite",
+        "number": "SP-24 SEC-004",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "fortnite.jpg"
+    },
+    {
+        "_id": "FORT301",
+        "name": "Advanced Fortnite",
+        "number": "SP-24 SEC-005",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "fortnite-advanced.webp"
+    },
+    {
+        "_id": "CS405",
+        "name": "Web Development",
+        "number": "SP-24 SEC-006",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "web-dev.jpg"
+    },
+    {
+        "_id": "BIO512",
+        "name": "Driving Primates",
+        "number": "SP-24 SEC-007",
+        "startDate": "2024-01-08",
+        "endDate": "2024-05-15",
+        "image": "driving-primates.webp"
+    }
+]
