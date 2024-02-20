@@ -1,9 +1,8 @@
-function Assignment4() {
-    return(
-        <div>
-            placeholder
-        </div>
-        
-    )
-}
-export default Assignment4
+const Assignment4 = () => {
+  return(
+    <>
+      <h1>Assignment 4</h1>
+    </>
+  );
+};
+export default Assignment4;
