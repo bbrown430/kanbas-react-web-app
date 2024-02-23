@@ -13,12 +13,15 @@ function Courses() {
   const course = courses.find((course) => course._id === courseId);
   return (
     <div>
-        <div className="course-header pt-3 ps-3">
-            <HiMiniBars3 className="fs-2 me-3"/><h2 className="m-0"> Course {course?.name}</h2>
+        <div className="d-none d-md-block">
+            <div className="course-header pt-3 ps-3">
+                <HiMiniBars3 className="fs-2 me-3"/>
+                <h2 className="m-0"> Course {course?.name}</h2>
+            </div>
+            <hr />
         </div>
-        <hr />
         <div className="d-flex">
-        <CourseNavigation />
+            <CourseNavigation />
             <div className="flex-grow-1">
                 <div
                 className="bottom-0 end-0 p-2"

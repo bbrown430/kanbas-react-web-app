@@ -1,6 +1,6 @@
 function Status() {
     return(
-        <div>
+        <div className="d-none d-lg-block">
             <h1>Status</h1>
         </div>
         
