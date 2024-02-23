@@ -1,0 +1,17 @@
+.course-header {
+    display: flex;
+    align-items: center;
+    color: #d41b2c;
+}
+
+.mobile-nav {
+    background-color: black;
+    color: white;
+    padding: 24px;
+}
+
+.mobile-nav a {
+    color: white;
+    text-decoration: none;
+    padding-top: 4px;
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "_id": "M101",
+    "name": "Intro to Cheese",
+    "course": "CHEESE101",
+    "description": "Learn about different types of cheese and cheese-making processes.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Types of Cheese",
+        "description": "Explore various types of cheese from around the world."
+      },
+      {
+        "_id": "L102",
+        "name": "Cheese-Making Process",
+        "description": "Understand the process of making cheese from milk."
+      },
+      {
+        "_id": "L103",
+        "name": "Cheese Pairing",
+        "description": "Learn about pairing different cheeses with wines and accompaniments."
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Intro to Surfing",
+    "course": "SURF101",
+    "description": "Basic techniques and safety measures for surfing beginners.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Surfing Equipment",
+        "description": "Learn about essential surfing equipment and gear."
+      },
+      {
+        "_id": "L102",
+        "name": "Basic Surfing Techniques",
+        "description": "Master the foundational techniques of surfing."
+      },
+      {
+        "_id": "L103",
+        "name": "Ocean Safety",
+        "description": "Understand ocean currents, tides, and safety precautions for surfers."
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Intro to Wine Tasting",
+    "course": "WINE101",
+    "description": "Discover the art of wine tasting and wine varieties.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Wine Tasting Basics",
+        "description": "Learn the basic steps and techniques of wine tasting."
+      },
+      {
+        "_id": "L102",
+        "name": "Wine Varieties",
+        "description": "Explore different types of wine and their characteristics."
+      },
+      {
+        "_id": "L103",
+        "name": "Food Pairing",
+        "description": "Understand how to pair wines with different types of food."
+      }
+    ]
+  },
+  {
+    "_id": "M104",
+    "name": "Intro to Fortnite",
+    "course": "FORT101",
+    "description": "Learn the basics of playing Fortnite and strategies for beginners.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Fortnite Basics",
+        "description": "Get started with Fortnite: controls, gameplay, and objectives."
+      },
+      {
+        "_id": "L102",
+        "name": "Basic Strategies",
+        "description": "Learn basic strategies to improve your performance in Fortnite."
+      },
+      {
+        "_id": "L103",
+        "name": "Building Techniques",
+        "description": "Master the art of building structures for defense and offense."
+      }
+    ]
+  },
+  {
+    "_id": "M105",
+    "name": "Advanced Fortnite",
+    "course": "FORT301",
+    "description": "Advanced gameplay tactics and strategies for experienced Fortnite players.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Advanced Building Techniques",
+        "description": "Master advanced building techniques for competitive Fortnite play."
+      },
+      {
+        "_id": "L102",
+        "name": "High-Level Strategies",
+        "description": "Learn high-level strategies to dominate in Fortnite matches."
+      },
+      {
+        "_id": "L103",
+        "name": "Survival Tactics",
+        "description": "Develop survival skills to outlast opponents and win matches."
+      }
+    ]
+  },
+  {
+    "_id": "M106",
+    "name": "Web Development",
+    "course": "CS405",
+    "description": "Learn web development fundamentals including HTML, CSS, and JavaScript.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "HTML Basics",
+        "description": "Introduction to HTML syntax and structure."
+      },
+      {
+        "_id": "L102",
+        "name": "CSS Fundamentals",
+        "description": "Learn the basics of CSS for styling web pages."
+      },
+      {
+        "_id": "L103",
+        "name": "JavaScript Essentials",
+        "description": "Introduction to JavaScript programming language and its usage in web development."
+      }
+    ]
+  },
+  {
+    "_id": "M107",
+    "name": "Driving Primates",
+    "course": "BIO512",
+    "description": "Study the behavior of primates and their driving abilities.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Primate Behavior",
+        "description": "Understand the behavior and social structure of primates."
+      },
+      {
+        "_id": "L102",
+        "name": "Primate Driving Skills",
+        "description": "Investigate the cognitive abilities required for primates to drive."
+      },
+      {
+        "_id": "L103",
+        "name": "Road Safety",
+        "description": "Learn about road safety regulations and precautions for driving primates."
+      }
+    ]
+  }
+]
