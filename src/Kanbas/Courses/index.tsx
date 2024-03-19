@@ -3,18 +3,19 @@ import { Navigate, Route, Routes, useParams, useLocation } from "react-router-do
 import { HiMiniBars3 } from "react-icons/hi2";
 import { FaBars, FaChevronDown } from "react-icons/fa";
 import CourseNavigation from "./Navigation";
+import { FaBars, FaChevronDown } from "react-icons/fa";
+
 import "./index.css";
 import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 
-function Courses() {
-  const { courseId } = useParams();
-  const { pathname } = useLocation();
-  const course = courses.find((course) => course._id === courseId);
-  const currentPage = pathname.split('/').pop();
-
-  return (
+function Courses({ courses }: { courses: any[]; }) {
+    const { courseId } = useParams();
+    const { pathname } = useLocation();
+    const course = courses.find((course) => course._id === courseId);
+    const currentPage = pathname.split('/').pop();
+    return (
     <div>
         <div className="d-sm d-md-none d-flex justify-content-between mobile-nav">
             <FaBars/>
