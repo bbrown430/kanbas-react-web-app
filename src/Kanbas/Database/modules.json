@@ -23,6 +23,29 @@
     ]
   },
   {
+    "_id": "M201",
+    "name": "Intro to Cheese Part 2",
+    "course": "CHEESE101",
+    "description": "Learn about different types of cheese and cheese-making processes.",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "Types of Cheese",
+        "description": "Explore various types of cheese from around the world."
+      },
+      {
+        "_id": "L102",
+        "name": "Cheese-Making Process",
+        "description": "Understand the process of making cheese from milk."
+      },
+      {
+        "_id": "L103",
+        "name": "Cheese Pairing",
+        "description": "Learn about pairing different cheeses with wines and accompaniments."
+      }
+    ]
+  },
+  {
     "_id": "M102",
     "name": "Intro to Surfing",
     "course": "SURF101",

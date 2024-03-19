@@ -1,7 +1,8 @@
-import { courses } from "../../Kanbas/Database";
-import { Navigate, Route, Routes, useParams } from "react-router-dom";
+import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
 import CourseNavigation from "./Navigation";
+import { FaBars, FaChevronDown } from "react-icons/fa";
+
 import "./index.css";
 import Modules from "./Modules";
 import Home from "./Home";
@@ -10,13 +11,23 @@ import Assignments from "./Assignments";
 
 function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
+    const { pathname } = useLocation();
     const course = courses.find((course) => course._id === courseId);
+    const currentPage = pathname.split('/').pop();
     return (
     <div>
-        <div className="course-header pt-3 ps-3">
-            <HiMiniBars3 className="fs-2 me-3"/><h2 className="m-0"> Course {course?.name}</h2>
+        <div className="d-sm d-md-none d-flex justify-content-between mobile-nav">
+            <FaBars/>
+            {course?.name} Modules
+            <FaChevronDown/>
         </div>
-        <hr />
+        <div className="d-none d-md-block">
+            <div className="course-header pt-3 ps-3">
+                <HiMiniBars3 className="fs-2 me-3"/>
+                <h2 className="m-0"> Course {course?.name} - {currentPage}</h2>
+            </div>
+            <hr />
+        </div>
         <div className="d-flex">
         <CourseNavigation />
             <div className="flex-grow-1">
