@@ -8,10 +8,10 @@ import Home from "./Home";
 import Assignments from "./Assignments";
 
 
-function Courses() {
-  const { courseId } = useParams();
-  const course = courses.find((course) => course._id === courseId);
-  return (
+function Courses({ courses }: { courses: any[]; }) {
+    const { courseId } = useParams();
+    const course = courses.find((course) => course._id === courseId);
+    return (
     <div>
         <div className="course-header pt-3 ps-3">
             <HiMiniBars3 className="fs-2 me-3"/><h2 className="m-0"> Course {course?.name}</h2>
