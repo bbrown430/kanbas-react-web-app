@@ -15,3 +15,7 @@
     color: navy;
     font-weight: bold
 }
+
+.form-control {
+    margin-bottom: 8px;
+}

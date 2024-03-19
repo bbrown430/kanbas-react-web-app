@@ -11,7 +11,6 @@ function Buttons() {
                 <option value="modonly">Publish All Modules</option>
                 <option value="unpub">Unpublish All Modules</option>
                 </select>
-            <button className="btn btn-danger ms-1">+ Module</button>
             <button className="btn btn-secondary ms-1"><FaEllipsisV/></button>
         </div>
     )

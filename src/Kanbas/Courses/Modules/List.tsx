@@ -8,6 +8,7 @@ import {
   setModule,
 } from "./reducer";
 import { KanbasState } from "../../store";
+import { FaTrashAlt, FaEdit } from "react-icons/fa";
 import Buttons from "./Buttons"
 function ModuleList() {
   const { courseId } = useParams();
@@ -19,45 +20,49 @@ function ModuleList() {
   return (
     <div className="flex-fill">
       <Buttons/>
-      <li className="list-group-item">
-          <button
-            onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
-            Add
-          </button>
-          <button
-            onClick={() => dispatch(updateModule(module))}>
-            Update
-          </button>
-          <input
-            value={module.name}
-            onChange={(e) =>
-              dispatch(setModule({ ...module, name: e.target.value }))
-            }/>
-          <textarea
-            value={module.description}
-            onChange={(e) =>
-              dispatch(setModule({ ...module, description: e.target.value }))
-            }/>
-        </li>
       <hr/>
-      <ul className="list-group">
+      <ul className="list-group wd-modules">
         {moduleList
           .filter((module) => module.course === courseId)
           .map((module, index) => (
             <li key={index} className="list-group-item">
               <h3>{module.name}</h3>
-              <p>{module.description}</p>
-              <button
-                onClick={() => dispatch(setModule(module))}>
-                Edit
-              </button>
-              <button
-                onClick={() => dispatch(deleteModule(module._id))}>
-                Delete
-              </button>
+              {module.description}
+              <span className="float-end">
+                <FaEdit 
+                  onClick={() => dispatch(setModule(module))}>  
+                </FaEdit>
+                <FaTrashAlt className="ms-2 me-2" 
+                  onClick={() => dispatch(deleteModule(module._id))}>
+
+                </FaTrashAlt>
+              </span>
             </li>
           ))}
       </ul>
+      <div>
+        <h3>Module Manager</h3>
+        <h5>Module Name</h5>
+        <input className="form-control"
+          value={module.name}
+          onChange={(e) =>
+            dispatch(setModule({ ...module, name: e.target.value }))
+          }/>
+        <h5>Module Description</h5>
+        <textarea className="form-control"
+          value={module.description}
+          onChange={(e) =>
+            dispatch(setModule({ ...module, description: e.target.value }))
+          }/>
+        <button className="btn btn-success me-2"
+          onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
+          Add
+        </button>
+        <button className="btn btn-info"
+          onClick={() => dispatch(updateModule(module))}>
+          Update
+        </button>
+      </div>
     </div>
   );
 }
