@@ -1,5 +1,7 @@
+import { courses } from "../../Kanbas/Database";
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router-dom";
 import { HiMiniBars3 } from "react-icons/hi2";
+import { FaBars, FaChevronDown } from "react-icons/fa";
 import CourseNavigation from "./Navigation";
 import { FaBars, FaChevronDown } from "react-icons/fa";
 
@@ -7,7 +9,6 @@ import "./index.css";
 import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
-
 
 function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
@@ -29,7 +30,7 @@ function Courses({ courses }: { courses: any[]; }) {
             <hr />
         </div>
         <div className="d-flex">
-        <CourseNavigation />
+            <CourseNavigation />
             <div className="flex-grow-1">
                 <div
                 className="bottom-0 end-0 p-2"
@@ -52,4 +53,5 @@ function Courses({ courses }: { courses: any[]; }) {
     </div>
   );
 }
-export default Courses
+
+export default Courses;

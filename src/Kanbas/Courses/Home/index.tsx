@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="d-flex">
       <ModuleList/>
-      <Status/>
+      <Status />
     </div>
   );
 }
